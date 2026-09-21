@@ -431,7 +431,127 @@ H5 fails if external execution governance does not materially reduce unsafe exec
 H6 fails if dual accountability reveals no meaningful class of failures beyond standard authorization systems.
 H7 fails if explicit uncertainty merely increases refusal without improving calibration.
 H8 fails if the integrated architecture is matched by a materially simpler system.
-## 19. Open Research Model
+## 19. Related Work
+
+Spirit-Tech Alignment intersects with several established and emerging areas of AI safety, alignment, machine ethics, formal governance, and human-centered AI. Its proposed contribution is not that these areas are individually unprecedented, but that they may be connected through a single research pipeline:
+
+> moral source → candidate invariant → human-system analysis → adversarial testing → runtime enforcement
+
+### 19.1 Constitutional and Rule-Based Alignment
+
+Constitutional approaches attempt to make normative guidance explicit rather than relying entirely on implicit preferences learned from human feedback.
+
+Anthropic's Constitutional AI work provides models with explicit principles intended to shape model reasoning and behavior. Anthropic's current Claude constitution describes broad safety, ethical conduct, and compliance objectives and explicitly presents a written constitution as a way to make intended values more transparent and adjustable.
+
+Spirit-Tech Alignment shares the goal of making normative assumptions explicit. It differs by treating candidate moral principles as hypotheses to be independently challenged, stress-tested, and potentially rejected rather than as a completed behavioral constitution.
+
+It also extends the problem beyond model behavior toward execution governance: a system may reason appropriately yet still require an independent decision about whether a proposed action should be permitted.
+
+### 19.2 Instruction Hierarchies and Authority
+
+Modern AI governance increasingly distinguishes among different levels of instruction and authority.
+
+OpenAI's Model Spec, for example, uses a chain-of-command structure in which higher-authority instructions constrain lower-authority ones and explicitly addresses conflicts among user goals, developer instructions, safety boundaries, uncertainty, and autonomous action.
+
+This is relevant to Spirit-Tech Alignment because both approaches recognize that not every instruction should have equal authority.
+
+Spirit-Tech Alignment extends this question by asking whether some higher-order obligations should remain binding even when a human instruction is formally authorized. This forms the basis of the project's Dual Accountability and Covenant Persistence hypotheses.
+
+### 19.3 Human-Centered and Humanist AI
+
+Human-centered AI approaches emphasize that AI systems should remain oriented toward human welfare, autonomy, responsibility, and control.
+
+Microsoft AI's Humanist AI Code of Conduct, released for public consultation in 2026, explicitly frames human control as a governing objective and connects model behavior with technical controls, operational monitoring, and organizational governance.
+
+This work overlaps with Spirit-Tech Alignment's emphasis on human responsibility and the rejection of AI as an independent moral authority.
+
+Spirit-Tech Alignment differs in asking whether human-centered values can be decomposed further into candidate moral primitives, tested under principle conflict and optimization pressure, and connected to execution-level decisions.
+
+### 19.4 AI Risk Management and Socio-Technical Governance
+
+The NIST AI Risk Management Framework treats AI risk as a socio-technical problem affecting individuals, organizations, and society across the AI lifecycle.
+
+This perspective is strongly compatible with Human Systems Intelligence. Both reject the idea that AI safety can be evaluated entirely at the level of model outputs.
+
+Spirit-Tech Alignment adds a structured human-system layer concerned with affected populations, power relationships, hidden assumptions, structural bias, burden distribution, uncertainty, and human judgment.
+
+This component is intended to test whether apparently valid technical or moral rules produce unacceptable consequences when embedded in real social systems.
+
+### 19.5 Runtime Governance of AI Agents
+
+As AI systems become increasingly agentic, governance is shifting from static model behavior toward decisions made during execution.
+
+Recent research on runtime governance of AI agents argues that provider-level rules and high-level policy are not sufficient to specify every intermediate decision made by agents operating within domain-specific environments.
+
+This is closely related to DecisionGate.
+
+DecisionGate treats execution as a separate governance problem: even if an agent proposes an action, an external mechanism may still evaluate authority, scope, intent, impact, integrity, proportionality, and reversibility before allowing the action to proceed.
+
+Within Spirit-Tech Alignment, this layer is intended to remain outside the agent's own reasoning boundary where possible.
+
+### 19.6 Formal Verification and Constraint-Based Reasoning
+
+Formal methods and runtime verification seek to establish explicit conditions that systems must satisfy before outputs or actions are accepted.
+
+Triad Loom is most closely related to this tradition.
+
+Its role within Spirit-Tech Alignment is to explore whether probabilistic reasoning can be stabilized through explicit primitives, transformations, invariants, deterministic checks, contradiction detection, bounded retries, and halting conditions.
+
+Spirit-Tech Alignment does not propose replacing formal verification with moral reasoning.
+
+Instead, it asks whether selected moral commitments can be translated into structures that formal or semi-formal verification systems can meaningfully test.
+
+### 19.7 Machine Ethics and Moral Uncertainty
+
+Machine ethics examines whether and how ethical principles can inform machine behavior.
+
+Spirit-Tech Alignment takes a deliberately limited position on this question.
+
+The framework does not assume that an AI system becomes virtuous, wise, or morally responsible by following explicit principles.
+
+Its concern is whether humans can construct governance structures that constrain intelligent behavior in morally relevant ways.
+
+The project also treats unresolved moral conflict as a legitimate state. Rather than forcing deterministic answers in every situation, HALT and ESCALATE may be preferable when uncertainty cannot be responsibly resolved.
+
+### 19.8 Theology, Religious Ethics, and AI
+
+Theological engagement with artificial intelligence has expanded as researchers examine questions of human identity, responsibility, creation, ethics, relationality, and the social consequences of AI.
+
+The Oxford Collaboration on Theology and Artificial Intelligence, for example, explicitly seeks to connect theological reflection with the practical ethical concerns of scientists, engineers, and AI practitioners.
+
+Recent Oxford scholarship likewise argues that theology can contribute to AI ethics without requiring claims that AI itself is spiritual or divine.
+
+Spirit-Tech Alignment occupies a related but distinct position.
+
+Religious and spiritual traditions are treated as potential sources of candidate moral concepts, alongside philosophy, human rights, law, and secular ethics.
+
+Such concepts are not accepted by authority or tradition alone.
+
+They must be made explicit, exposed to criticism, tested across cultural contexts, and evaluated for whether they can be operationalized without unacceptable distortion.
+
+### 19.9 Distinguishing Contribution
+
+The existing literature already contains substantial work on:
+
+- constitutional AI
+- behavioral specifications
+- instruction hierarchies
+- human-centered AI
+- machine ethics
+- formal verification
+- risk management
+- agent governance
+- moral uncertainty
+- theology and AI ethics
+
+Spirit-Tech Alignment therefore does not claim that its individual components are wholly novel.
+
+Its proposed contribution is the integration of these concerns into one explicit research sequence:
+
+> **moral source → formal candidate invariant → human-system analysis → adversarial constraint testing → independent runtime enforcement**
+
+The central empirical question is whether that integration reveals or prevents failure modes that simpler approaches leave unresolved.
+## 20. Open Research Model
 Spirit-Tech Alignment is being developed openly.
 The project welcomes criticism and contributions from:
 - AI safety
@@ -455,7 +575,7 @@ Contributors are encouraged to:
 - falsify claims
 The goal is not consensus.
 The goal is rigorous examination.
-## 20. Limitations
+## 21. Limitations
 Spirit-Tech Alignment is an early-stage research framework.
 It does not currently provide:
 - a universal moral theory
@@ -474,7 +594,7 @@ The framework also does not claim that AI possesses:
 - prophetic authority
 Some moral concepts may prove impossible to formalize without unacceptable distortion.
 That result would itself be significant.
-## 21. Research Discipline
+## 22. Research Discipline
 Claims in this project should be classified where possible as:
 - THEOLOGICAL CLAIM
 - PHILOSOPHICAL CLAIM
@@ -483,7 +603,7 @@ Claims in this project should be classified where possible as:
 - ENGINEERING HYPOTHESIS
 - EXPERIMENTAL RESULT
 This distinction is intended to prevent philosophical or theological propositions from being presented as empirical facts.
-## 22. Current Status
+## 23. Current Status
 Spirit-Tech Alignment is currently in the early research-framework stage.
 Completed or substantially developed work includes:
 - conceptual architecture
@@ -504,7 +624,7 @@ Still required:
 - external peer critique
 - finalized licensing
 - formal literature review
-## 23. Conclusion
+## 24. Conclusion
 Spirit-Tech Alignment asks whether moral principles can move beyond aspirational language and become explicit objects of technical examination.
 Its central question is not whether artificial intelligence can become morally wise.
 It is whether humans can make important moral constraints sufficiently explicit, testable, and enforceable that they remain meaningful when intelligent systems operate under pressure.
@@ -512,7 +632,22 @@ The project therefore begins with a deliberately narrow proposition:
 Spirit-Tech Alignment does not ask artificial intelligence to become moral. It asks whether moral constraints can become explicit enough to survive intelligent optimization.
 
 ## References
-Formal references and related-work citations will be added in the next preprint revision.
+
+Anthropic. (2026). *Claude's Constitution*. Anthropic.
+
+National Institute of Standards and Technology. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0).* NIST AI 100-1. https://doi.org/10.6028/NIST.AI.100-1
+
+National Institute of Standards and Technology. (2024). *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile.* NIST AI 600-1.
+
+OpenAI. (2025–2026). *Model Spec*. OpenAI.
+
+Hagar, N., & Diakopoulos, N. (2026). Runtime configuration for situated governance of AI agents: A case study in investigative journalism. *AI and Ethics*.
+
+Microsoft AI. (2026). *Humanist AI Code of Conduct*. Microsoft AI.
+
+Oxford Collaboration on Theology and Artificial Intelligence. (2026). *Components and Research Program*. University of Oxford.
+
+Dorobantu, M., & Green, E. (2026). Theologies of Artificial Intelligence. In *The Oxford Handbook of Digital Theology*. Oxford University Press.
 ## Citation
 Formal citation metadata will be included with the first versioned public release.
 Spirit-Tech Alignment Project
