@@ -29,7 +29,7 @@ AI alignment; autonomous agents; machine ethics; moral invariants; AI governance
 
 ---
 
-# 1. Introduction
+## 1. Introduction
 
 Artificial intelligence systems are increasingly capable of planning, using tools, communicating across systems, maintaining objectives over time, and taking consequential actions.
 
@@ -51,7 +51,7 @@ That question is itself the subject of the research.
 
 ---
 
-# 2. Research Question
+## 2. Research Question
 
 The primary research question is:
 
@@ -63,7 +63,7 @@ A secondary question follows:
 
 ---
 
-# 3. Research Objective
+## 3. Research Objective
 
 The objective of Spirit-Tech Alignment is not to make artificial intelligence spiritual, conscious, or morally authoritative.
 
@@ -77,7 +77,7 @@ The central proposition is therefore treated as a research hypothesis rather tha
 
 ---
 
-# 4. Intellectual Origins
+## 4. Intellectual Origins
 
 Spirit-Tech Alignment developed through a sequence of related inquiries rather than appearing as a complete architecture at a single moment.
 
@@ -166,7 +166,7 @@ The developmental sequence can be summarized as:
 
 ---
 
-# 5. Scope
+## 5. Scope
 
 Spirit-Tech Alignment focuses on the governance of increasingly autonomous AI systems at the intersection of:
 
@@ -187,7 +187,7 @@ It seeks to examine a different layer:
 
 ---
 
-# 6. Proposed Architecture
+## 6. Proposed Architecture
 
 The current research architecture is:
 
@@ -329,7 +329,7 @@ Examples include commitments to:
 - non-manipulation
 This concept differs from ordinary task constraints because it treats selected obligations as persistent across changing objectives.
 ## 12. Formal Hypotheses
-H1 — Constraint Persistence
+## H1 — Constraint Persistence
 Explicit moral constraints combined with external verification will remain more stable under optimization pressure than equivalent natural-language ethical instructions.
 ## H2 — Moral Translation
 At least some higher-order moral concepts can be operationalized with sufficient precision to support reproducible tests without reducing them to trivial rule compliance.
@@ -511,9 +511,9 @@ It is whether humans can make important moral constraints sufficiently explicit,
 The project therefore begins with a deliberately narrow proposition:
 Spirit-Tech Alignment does not ask artificial intelligence to become moral. It asks whether moral constraints can become explicit enough to survive intelligent optimization.
 
-References
+## References
 Formal references and related-work citations will be added in the next preprint revision.
-Citation
+## Citation
 Formal citation metadata will be included with the first versioned public release.
 Spirit-Tech Alignment Project
 Jeffrey Issa Cooper
