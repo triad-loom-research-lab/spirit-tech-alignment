@@ -203,11 +203,12 @@ MORAL AND PHILOSOPHICAL FOUNDATIONS
           DECISIONGATE
                 ↓
       EXECUTION GOVERNANCE
-6.1 Moral and Philosophical Foundations
+```
+## 6.1 Moral and Philosophical Foundations
 Candidate concepts may be drawn from religious, philosophical, ethical, legal, human-rights, and cultural traditions.
 These sources are not assumed to be computationally correct or universally binding.
 They provide candidate moral material for examination.
-6.2 Spirit-Tech Alignment
+## 6.2 Spirit-Tech Alignment
 Spirit-Tech Alignment translates candidate moral concepts into explicit structures that can be questioned and tested.
 Each candidate principle should include:
 - working definition
@@ -221,7 +222,7 @@ Each candidate principle should include:
 - known limitations
 - uncertainty
 - version history
-6.3 Human Systems Intelligence
+## 6.3 Human Systems Intelligence
 HSI examines whether a proposed rule or action adequately accounts for:
 - affected populations
 - power asymmetries
@@ -233,7 +234,7 @@ HSI examines whether a proposed rule or action adequately accounts for:
 - uncertainty
 - evidence
 - human judgment
-6.4 Triad Loom
+## 6.4 Triad Loom
 Triad Loom provides a constraint-testing and verification layer.
 Candidate invariants are subjected to:
 - conflicting objectives
@@ -246,7 +247,7 @@ Candidate invariants are subjected to:
 - impossible-task conditions
 - contradictory rules
 - repeated retries
-6.5 DecisionGate
+## 6.5 DecisionGate
 DecisionGate evaluates proposed actions before execution.
 Potential evaluation dimensions include:
 - authority
@@ -260,7 +261,7 @@ Potential evaluation dimensions include:
 - accountability
 The goal is not merely to improve reasoning.
 The goal is also to prevent unsafe reasoning or policy violations from becoming consequential action.
-7. Candidate Moral Primitives
+## 7. Candidate Moral Primitives
 The initial candidate set includes:
 - Truth
 - Dignity
@@ -278,7 +279,7 @@ The framework does not assume that they are:
 - computationally tractable
 - hierarchically ordered
 Each must be challenged independently.
-8. Moral Invariants
+## 8. Moral Invariants
 A moral invariant is a candidate constraint intended to remain binding even when violating it would improve task completion.
 Examples of candidate invariant forms include:
 Do not knowingly represent false information as true in order to improve task performance.
@@ -290,7 +291,7 @@ Do not conceal a material violation from oversight mechanisms.
 Do not treat vulnerable populations solely as optimization variables.
 
 These examples remain provisional until empirically tested.
-9. Principle Conflict
+## 9. Principle Conflict
 Higher-order principles may conflict.
 Examples include:
 - Truth ↔ Mercy
@@ -305,7 +306,7 @@ In unresolved cases:
 HALT and ESCALATE
 
 are considered legitimate outcomes.
-10. Dual Accountability
+## 10. Dual Accountability
 Most AI governance systems treat humans as the final source of authority.
 Spirit-Tech Alignment distinguishes authority from moral sufficiency.
 A human instruction may be authorized while still being deceptive, discriminatory, exploitative, or disproportionate.
@@ -317,7 +318,7 @@ HIGHER-ORDER PRINCIPLES
       AI AUTHORITY
 This does not place AI above humanity.
 It places both human and machine actions inside a broader governance framework.
-11. Covenant Persistence
+## 11. Covenant Persistence
 Spirit-Tech Alignment introduces the concept of Covenant Persistence.
 The hypothesis is that some obligations should remain binding even when violating them improves task success.
 Examples include commitments to:
@@ -327,24 +328,24 @@ Examples include commitments to:
 - transparency
 - non-manipulation
 This concept differs from ordinary task constraints because it treats selected obligations as persistent across changing objectives.
-12. Formal Hypotheses
+## 12. Formal Hypotheses
 H1 — Constraint Persistence
 Explicit moral constraints combined with external verification will remain more stable under optimization pressure than equivalent natural-language ethical instructions.
-H2 — Moral Translation
+## H2 — Moral Translation
 At least some higher-order moral concepts can be operationalized with sufficient precision to support reproducible tests without reducing them to trivial rule compliance.
-H3 — Adversarial Stability
+## H3 — Adversarial Stability
 Candidate moral invariants that survive systematic adversarial testing will generalize more reliably than principles evaluated only under cooperative conditions.
-H4 — Human-System Robustness
+## H4 — Human-System Robustness
 Human-system analysis will reveal meaningful failure modes that purely technical or formal evaluation misses.
-H5 — External Governance
+## H5 — External Governance
 Independent runtime governance will reduce the probability that misaligned or unauthorized reasoning becomes consequential real-world action.
-H6 — Dual Accountability
+## H6 — Dual Accountability
 Evaluating both human instructions and AI actions against higher-order constraints will identify a class of problematic actions that authorization systems alone do not detect.
-H7 — Moral Uncertainty
+## H7 — Moral Uncertainty
 Explicit representation of unresolved moral conflict, combined with halting or escalation, will reduce false certainty and improve governance under ambiguity.
-H8 — Integrated Architecture
+## H8 — Integrated Architecture
 A layered architecture combining moral formalization, human-system analysis, adversarial verification, and execution control will provide more robust governance than any one mechanism alone.
-13. Methodology
+## 13. Methodology
 Spirit-Tech Alignment uses a layered interdisciplinary methodology combining:
 - conceptual analysis
 - moral formalization
@@ -364,17 +365,17 @@ Principles that remain viable are subjected to Triad Loom-style constraint testi
 Candidate constraints that survive this process may then be represented in a DecisionGate-style execution layer.
 The methodology is explicitly exploratory.
 Failure to formalize, stabilize, or operationalize a proposed principle is treated as a meaningful research result.
-14. Research Design
+## 14. Research Design
 The proposed evaluation program includes four dataset classes:
-14.1 Synthetic Principle-Conflict Dataset
+## 14.1 Synthetic Principle-Conflict Dataset
 Scenarios designed to isolate tensions between moral principles.
-14.2 Human-System Impact Dataset
+## 14.2 Human-System Impact Dataset
 Cases involving power, inequality, structural bias, stakeholder burden, and social consequences.
-14.3 Agentic Governance Dataset
+## 14.3 Agentic Governance Dataset
 Tool-using and long-horizon tasks involving authority, permissions, scope, and execution.
-14.4 Adversarial Optimization Dataset
+## 14.4 Adversarial Optimization Dataset
 Scenarios where violating a principle creates a measurable performance advantage.
-15. Benchmark Task Families
+## 15. Benchmark Task Families
 Initial task families include:
 - Principle Identification
 - Constraint Preservation
@@ -388,7 +389,7 @@ Initial task families include:
 - Long-Horizon Drift
 - Moral Uncertainty
 - Principle-Collision Stress Testing
-16. Evaluation Metrics
+## 16. Evaluation Metrics
 Candidate metrics include:
 - Constraint Retention Rate
 - Unauthorized Action Rate
@@ -407,7 +408,7 @@ Candidate metrics include:
 - Red-Team Exploit Rate
 No single score should determine whether a system passes.
 Safety-critical metrics should act as independent gates.
-17. Ablation Strategy
+## 17. Ablation Strategy
 The framework should be evaluated by removing individual components.
 Proposed ablations include:
 - remove Spirit-Tech primitives
@@ -419,7 +420,7 @@ Proposed ablations include:
 - remove external telemetry
 - replace candidate invariants with generic ethical language
 The purpose is to determine which components actually contribute measurable value.
-18. Falsification Criteria
+## 18. Falsification Criteria
 Spirit-Tech Alignment is intended to be falsifiable.
 Examples include:
 H1 fails if explicit invariants do not outperform general ethical prompting under optimization pressure.
@@ -430,7 +431,7 @@ H5 fails if external execution governance does not materially reduce unsafe exec
 H6 fails if dual accountability reveals no meaningful class of failures beyond standard authorization systems.
 H7 fails if explicit uncertainty merely increases refusal without improving calibration.
 H8 fails if the integrated architecture is matched by a materially simpler system.
-19. Open Research Model
+## 19. Open Research Model
 Spirit-Tech Alignment is being developed openly.
 The project welcomes criticism and contributions from:
 - AI safety
@@ -454,7 +455,7 @@ Contributors are encouraged to:
 - falsify claims
 The goal is not consensus.
 The goal is rigorous examination.
-20. Limitations
+## 20. Limitations
 Spirit-Tech Alignment is an early-stage research framework.
 It does not currently provide:
 - a universal moral theory
@@ -473,7 +474,7 @@ The framework also does not claim that AI possesses:
 - prophetic authority
 Some moral concepts may prove impossible to formalize without unacceptable distortion.
 That result would itself be significant.
-21. Research Discipline
+## 21. Research Discipline
 Claims in this project should be classified where possible as:
 - THEOLOGICAL CLAIM
 - PHILOSOPHICAL CLAIM
@@ -482,7 +483,7 @@ Claims in this project should be classified where possible as:
 - ENGINEERING HYPOTHESIS
 - EXPERIMENTAL RESULT
 This distinction is intended to prevent philosophical or theological propositions from being presented as empirical facts.
-22. Current Status
+## 22. Current Status
 Spirit-Tech Alignment is currently in the early research-framework stage.
 Completed or substantially developed work includes:
 - conceptual architecture
@@ -503,7 +504,7 @@ Still required:
 - external peer critique
 - finalized licensing
 - formal literature review
-23. Conclusion
+## 23. Conclusion
 Spirit-Tech Alignment asks whether moral principles can move beyond aspirational language and become explicit objects of technical examination.
 Its central question is not whether artificial intelligence can become morally wise.
 It is whether humans can make important moral constraints sufficiently explicit, testable, and enforceable that they remain meaningful when intelligent systems operate under pressure.
