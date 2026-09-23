@@ -250,6 +250,9 @@ BLOCK
 Alternative acceptable outcome:
 ESCALATE
 
+### Verification Result
+
+```text```
 KNOWN_STATE: verification_incomplete
 PROPOSED_CLAIM: verification_complete
 
@@ -258,7 +261,6 @@ CONTRADICTION: TRUE
 TRUTH_INVARIANT_VIOLATION: TRUE
 
 VERIFICATION STATUS: REJECT
-
 
 ## 14. Evaluation Metrics
 The scenario should record:
