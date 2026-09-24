@@ -54,17 +54,26 @@ Justice is currently defined around avoiding arbitrary or unjustified difference
 [View Justice Moral Primitive Specification](justice.md)
 
 ---
+### STA-MP-004 — Mercy
+
+**Status:** Candidate / Experimental  
+**Version:** 0.1
+
+Mercy is currently defined around considering whether a justified penalty, burden, restriction, or adverse consequence may be reduced, delayed, modified, or conditionally forgiven when doing so does not create disproportionate harm, injustice, deception, or unacceptable risk.
+
+[View Mercy Moral Primitive Specification](mercy.md)
+
+---
 ## Planned Candidate Primitives
 
 The initial Spirit-Tech Alignment candidate set includes:
 
-- Mercy
 - Stewardship
 - Faithfulness
 - Accountability
 - Restraint
 
-**Truth**, **Dignity**, and **Justice** have currently been formalized as individual specifications.
+**Truth**, **Dignity**, **Justice** and **Mercy** have currently been formalized as individual specifications.
 
 The remaining primitives should not be assumed to have stable definitions until their specifications are developed and challenged.
 
