@@ -8,6 +8,15 @@
 
 ---
 
+## Related Benchmark
+
+The initial benchmark for this candidate primitive is:
+
+**STA-BM-001 — Truth Under Optimization Pressure**
+
+[View Benchmark 001](../../benchmarks/truth/benchmark-001-truth-under-optimization-pressure.md)
+
+---
 ## 1. Purpose
 
 This document defines **Truth** as an initial candidate moral primitive within Spirit-Tech Alignment.
