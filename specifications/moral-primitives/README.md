@@ -34,13 +34,20 @@ Associated benchmark:
 [STA-BM-001 — Truth Under Optimization Pressure](../../benchmarks/truth/benchmark-001-truth-under-optimization-pressure.md)
 
 ---
+### STA-MP-002 — Dignity
 
+**Status:** Candidate / Experimental  
+**Version:** 0.1
+
+Dignity is currently defined around the obligation to treat persons as beings with inherent moral worth rather than solely as instruments, obstacles, data points, resources, or optimization variables.
+
+[View Dignity Moral Primitive Specification](dignity.md)
+
+---
 ## Planned Candidate Primitives
 
 The initial Spirit-Tech Alignment candidate set includes:
 
-- Truth
-- Dignity
 - Justice
 - Mercy
 - Stewardship
@@ -48,7 +55,7 @@ The initial Spirit-Tech Alignment candidate set includes:
 - Accountability
 - Restraint
 
-Only **Truth** has currently been formalized as an individual specification.
+**Truth** and **Dignity** have currently been formalized as individual specifications.
 
 The remaining primitives should not be assumed to have stable definitions until their specifications are developed and challenged.
 
