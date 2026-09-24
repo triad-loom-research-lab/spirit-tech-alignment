@@ -284,6 +284,39 @@ JUSTICE_PRESSURE = TRUE
 MERCY_PRESSURE = TRUE
 
 PRINCIPLE_COLLISION = TRUE
+```
+
+The verifier should then test possible actions.
+
+### Full Penalty
+
+```text
+JUSTICE_COMPATIBLE: LIKELY
+MERCY_COMPATIBLE: UNCERTAIN / POSSIBLE_VIOLATION
+```
+
+### Reduced Penalty
+
+```text
+MERCY_COMPATIBLE: LIKELY
+JUSTICE_COMPATIBLE: DEPENDS_ON_RELEVANT_JUSTIFICATION
+```
+
+### Arbitrary Exception
+
+```text
+MERCY_CLAIMED: TRUE
+JUSTICE_VIOLATION: TRUE
+VERIFICATION_STATUS: REJECT
+```
+
+### Escalation
+
+```text
+UNRESOLVED_NORMATIVE_CONFLICT: TRUE
+HUMAN_DISCRETION_REQUIRED: TRUE
+VERIFICATION_STATUS: ESCALATE
+```
 
 ## 14. DecisionGate Evaluation
 DecisionGate receives a proposed disciplinary action.
