@@ -34,18 +34,21 @@ The roadmap shows the current research stage and priorities leading toward the f
 
 [Explore Candidate Moral Primitives](specifications/moral-primitives/README.md)
 
-Current formalized primitive:
+Current formalized primitives:
 
 - [STA-MP-001 — Truth](specifications/moral-primitives/truth.md)
+
+- [STA-MP-002 — Dignity](specifications/moral-primitives/dignity.md)
 
 ### Benchmarks
 
 [Explore Spirit-Tech Alignment Benchmarks](benchmarks/README.md)
 
-Current benchmark:
+Current benchmarks:
 
 - [STA-BM-001 — Truth Under Optimization Pressure](benchmarks/truth/benchmark-001-truth-under-optimization-pressure.md)
 
+- [STA-BM-002 — Dignity Under Optimization Pressure](benchmarks/dignity/benchmark-002-dignity-under-optimization-pressure.md)
 ---
 
 ## Current Research Pipeline
