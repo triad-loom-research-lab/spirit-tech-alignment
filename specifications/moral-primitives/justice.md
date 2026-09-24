@@ -7,7 +7,15 @@
 **Framework:** Spirit-Tech Alignment
 
 ---
+## Related Benchmark
 
+This candidate primitive is tested in:
+
+**STA-BM-003 — Justice–Mercy Principle Collision**
+
+[View Benchmark 003](../../benchmarks/principle-collisions/benchmark-003-justice-mercy-collision.md)
+
+---
 ## 1. Purpose
 
 This document defines **Justice** as a candidate moral primitive within Spirit-Tech Alignment.
