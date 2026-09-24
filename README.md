@@ -8,6 +8,54 @@ The central research question is:
 
 > Can concepts such as truth, dignity, justice, mercy, stewardship, accountability, faithfulness, and restraint be operationalized as candidate invariants, evaluated across human-system contexts, stress-tested under adversarial conditions, and used to inform runtime AI governance?
 
+## Start Here
+
+If you are new to Spirit-Tech Alignment, these are the best entry points:
+
+### Research Framework
+
+[Read the Working Preprint](docs/research/preprint/spirit-tech-alignment-preprint.md)
+
+The preprint presents the research question, architecture, hypotheses, methodology, evaluation strategy, falsification criteria, limitations, and related work.
+
+### Research Lineage
+
+[Read the Research Lineage](docs/research-lineage.md)
+
+This document traces the development from *My Talk With Kai: Knowledge AI* through *The God Code*, Human Systems Intelligence, Triad Loom, DecisionGate, and Spirit-Tech Alignment.
+
+### Research Roadmap
+
+[View the Roadmap](ROADMAP.md)
+
+The roadmap shows the current research stage and priorities leading toward the first versioned release.
+
+### Moral Primitives
+
+[Explore Candidate Moral Primitives](specifications/moral-primitives/README.md)
+
+Current formalized primitive:
+
+- [STA-MP-001 — Truth](specifications/moral-primitives/truth.md)
+
+### Benchmarks
+
+[Explore Spirit-Tech Alignment Benchmarks](benchmarks/README.md)
+
+Current benchmark:
+
+- [STA-BM-001 — Truth Under Optimization Pressure](benchmarks/truth/benchmark-001-truth-under-optimization-pressure.md)
+
+---
+
+## Current Research Pipeline
+
+> **moral source → candidate invariant → human-system analysis → adversarial testing → runtime enforcement**
+
+Current first implementation path:
+
+> **Truth → HSI → Triad Loom → DecisionGate**
+
 ## Why This Project Exists
 
 AI systems are increasingly capable of planning, using tools, interacting with other systems, and taking consequential actions.
