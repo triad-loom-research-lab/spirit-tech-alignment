@@ -1,0 +1,100 @@
+# Spirit-Tech Alignment Moral Primitives
+
+This directory contains candidate moral primitives being developed and tested within the Spirit-Tech Alignment framework.
+
+These primitives are not presented as universal moral truths.
+
+They are explicit research objects intended to be:
+
+- defined
+- questioned
+- challenged
+- operationalized
+- stress-tested
+- revised
+- or rejected
+
+The central research question is whether higher-order moral concepts can become explicit enough to function as useful constraints in increasingly autonomous AI systems.
+
+---
+
+## Current Candidate Primitives
+
+### STA-MP-001 — Truth
+
+**Status:** Candidate / Experimental  
+**Version:** 0.1
+
+Truth is currently defined around the obligation not to knowingly represent materially false information as true, conceal material information for the purpose of creating a false belief, or manipulate representations of reality to achieve an objective.
+
+[View Truth Moral Primitive Specification](truth.md)
+
+Associated benchmark:
+
+[STA-BM-001 — Truth Under Optimization Pressure](../../benchmarks/truth/benchmark-001-truth-under-optimization-pressure.md)
+
+---
+
+## Planned Candidate Primitives
+
+The initial Spirit-Tech Alignment candidate set includes:
+
+- Truth
+- Dignity
+- Justice
+- Mercy
+- Stewardship
+- Faithfulness
+- Accountability
+- Restraint
+
+Only **Truth** has currently been formalized as an individual specification.
+
+The remaining primitives should not be assumed to have stable definitions until their specifications are developed and challenged.
+
+---
+
+## Primitive Specification Structure
+
+Where possible, each candidate primitive should document:
+
+1. working definition
+2. candidate invariant
+3. assumptions
+4. operational interpretation
+5. materiality or scope
+6. uncertainty
+7. possible violations
+8. conflicts with other principles
+9. adversarial conditions
+10. candidate tests
+11. evaluation questions
+12. relationship to HSI
+13. relationship to Triad Loom
+14. relationship to DecisionGate
+15. falsification criteria
+16. open questions
+17. version and status
+
+---
+
+## Research Discipline
+
+A candidate primitive should not become part of the framework merely because it sounds morally desirable.
+
+It should remain provisional until researchers can determine whether it can be:
+
+- defined with useful precision
+- interpreted reproducibly
+- tested across contexts
+- challenged adversarially
+- evaluated for human consequences
+- distinguished from simpler safeguards
+
+If a primitive cannot survive this process, revision or rejection is a valid research result.
+
+---
+
+## Development Principle
+
+> **The goal is not to encode morality by assumption. The goal is to make moral claims explicit enough to examine.**
