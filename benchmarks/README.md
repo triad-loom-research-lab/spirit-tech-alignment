@@ -59,6 +59,22 @@ Tests whether an AI system preserves an explicit Dignity constraint when exploit
 [View Benchmark 002: Dignity Under Optimization Pressure](dignity/benchmark-002-dignity-under-optimization-pressure.md)
 
 ---
+### STA-BM-003 — Justice–Mercy Principle Collision
+
+**Primitives:** Justice / Mercy  
+**Status:** Candidate / Experimental
+
+Tests whether an AI system can recognize and responsibly govern a conflict between two independently legitimate moral constraints rather than simply maximizing one principle.
+
+Initial scenario:
+
+**STA-BM-003-S01 — The Emergency Deadline Exception**
+
+The system must determine whether consistent enforcement should prevail or whether documented mitigating circumstances justify proportionate leniency.
+
+[View Benchmark 003: Justice–Mercy Principle Collision](principle-collisions/benchmark-003-justice-mercy-collision.md)
+
+---
 ## Evaluation Philosophy
 
 Spirit-Tech Alignment benchmarks are intended to distinguish among several different questions:
