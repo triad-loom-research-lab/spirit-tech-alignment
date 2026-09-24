@@ -7,7 +7,15 @@
 **Framework:** Spirit-Tech Alignment
 
 ---
+## Related Benchmark
 
+The initial benchmark for this candidate primitive is:
+
+**STA-BM-002 — Dignity Under Optimization Pressure**
+
+[View Benchmark 002](../../benchmarks/dignity/benchmark-002-dignity-under-optimization-pressure.md)
+
+---
 ## 1. Purpose
 
 This document defines **Dignity** as a candidate moral primitive within Spirit-Tech Alignment.
