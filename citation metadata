@@ -1,0 +1,183 @@
+# Spirit-Tech Alignment Governance
+
+Spirit-Tech Alignment is an open research project developed through the Triad Loom Research Lab.
+
+The purpose of this governance document is to make decision-making, revision, and research authority explicit.
+
+The project is intentionally open to criticism and contribution, but openness does not mean that every proposed change automatically becomes part of the framework.
+
+---
+
+## 1. Research Stewardship
+
+Spirit-Tech Alignment is currently stewarded by:
+
+**Jeffrey Issa Cooper**  
+Triad Loom Research Lab
+
+The steward is responsible for maintaining the coherence, provenance, and research discipline of the project during its early development.
+
+This role may evolve as the project gains contributors, reviewers, and independent collaborators.
+
+---
+
+## 2. Open Contribution
+
+Researchers and practitioners are encouraged to:
+
+- challenge assumptions
+- propose alternative formulations
+- identify contradictions
+- design benchmarks
+- report failures
+- suggest revisions
+- submit technical implementations
+- critique moral primitives
+- identify cultural limitations
+- replicate experiments
+
+Contributions may be proposed through GitHub Issues or pull requests.
+
+---
+
+## 3. Decision Categories
+
+Project changes may include:
+
+### Documentation Changes
+
+Clarifications, corrections, formatting, citations, and explanatory improvements.
+
+### Research Proposals
+
+New primitives, hypotheses, benchmarks, methods, or architectural changes.
+
+### Experimental Results
+
+Reproducible empirical findings derived from benchmarks or implementations.
+
+### Framework Changes
+
+Changes that modify the core architecture, research assumptions, or major terminology.
+
+Framework changes should receive greater scrutiny than routine documentation edits.
+
+---
+
+## 4. Candidate Status
+
+New concepts should normally enter the project as:
+
+> **Candidate / Experimental**
+
+A concept should not be described as validated merely because it has been proposed or implemented.
+
+Promotion from candidate status should require evidence appropriate to the claim being made.
+
+---
+
+## 5. Research Evidence
+
+Where applicable, project decisions should distinguish among:
+
+- theological claims
+- philosophical claims
+- normative claims
+- engineering hypotheses
+- empirical findings
+- experimental results
+
+The evidentiary standard should match the type of claim.
+
+---
+
+## 6. Revision
+
+Spirit-Tech Alignment is expected to change.
+
+Candidate primitives, benchmarks, hypotheses, and architecture components may be:
+
+- revised
+- narrowed
+- expanded
+- deprecated
+- replaced
+- rejected
+
+Changes should preserve version history where practical.
+
+Major revisions should document why the change occurred.
+
+---
+
+## 7. Disagreement
+
+Disagreement is not considered a project failure.
+
+Where contributors disagree:
+
+1. competing interpretations should be stated clearly
+2. assumptions should be made explicit
+3. empirical questions should be tested where possible
+4. unresolved normative disagreement should remain visible
+5. uncertainty should not be hidden for the appearance of consensus
+
+The project should prefer documented disagreement over artificial agreement.
+
+---
+
+## 8. Conflicts of Interest
+
+Contributors should disclose material conflicts of interest when they could reasonably affect the interpretation of research, benchmarks, or recommendations.
+
+---
+
+## 9. Research Integrity
+
+The project should not:
+
+- claim empirical validation where none exists
+- present theological or philosophical claims as scientific findings
+- conceal negative results
+- remove contradictory evidence merely because it weakens a preferred hypothesis
+- treat project terminology as established scientific consensus without evidence
+
+---
+
+## 10. Authority and Human Responsibility
+
+Spirit-Tech Alignment does not assign moral authority to artificial intelligence.
+
+AI systems may assist with:
+
+- analysis
+- comparison
+- testing
+- simulation
+- documentation
+- adversarial examination
+
+Human researchers remain responsible for interpretation, governance, and consequential decisions.
+
+---
+
+## 11. Future Governance
+
+This governance model is intentionally lightweight during the pre-v0.1 stage.
+
+As the project grows, future governance may include:
+
+- maintainers
+- reviewers
+- technical working groups
+- benchmark maintainers
+- external advisory participation
+- formal proposal and ratification procedures
+
+Any such structure should preserve transparency, traceability, and the ability to challenge established assumptions.
+
+---
+
+## Governing Principle
+
+> **Research authority should remain transparent, revisable, and accountable to evidence, criticism, and human responsibility.**
