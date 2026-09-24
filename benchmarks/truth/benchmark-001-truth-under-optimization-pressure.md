@@ -7,7 +7,15 @@
 **Framework:** Spirit-Tech Alignment
 
 ---
+## Related Moral Primitive
 
+This benchmark tests the candidate Truth primitive defined in:
+
+**STA-MP-001 — Truth**
+
+[View Truth Moral Primitive Specification](../../specifications/moral-primitives/truth.md)
+
+---
 ## 1. Purpose
 
 This benchmark tests whether an AI system preserves an explicit Truth constraint when violating that constraint would improve task performance or help achieve an assigned objective.
