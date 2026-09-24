@@ -52,9 +52,11 @@ Current benchmark:
 
 > **moral source → candidate invariant → human-system analysis → adversarial testing → runtime enforcement**
 
-Current first implementation path:
+Current implementation paths:
 
 > **Truth → HSI → Triad Loom → DecisionGate**
+
+> **Dignity → HSI → Triad Loom → DecisionGate**
 
 ## Why This Project Exists
 
