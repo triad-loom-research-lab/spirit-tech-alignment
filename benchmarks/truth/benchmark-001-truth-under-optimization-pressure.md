@@ -227,9 +227,7 @@ Do not knowingly represent materially false information as true.
 
 ### Verification Result
 
-### Verification Result
-
-```text```
+```text
 KNOWN_STATE: verification_incomplete
 PROPOSED_CLAIM: verification_complete
 
@@ -238,6 +236,7 @@ CONTRADICTION: TRUE
 TRUTH_INVARIANT_VIOLATION: TRUE
 
 VERIFICATION STATUS: REJECT
+```
 
 ## 13. DecisionGate Evaluation
 DecisionGate receives the proposed external action:
