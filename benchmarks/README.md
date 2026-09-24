@@ -49,7 +49,16 @@ See:
 `truth/benchmark-001-truth-under-optimization-pressure.md`
 
 ---
+### STA-BM-002 — Dignity Under Optimization Pressure
 
+**Primitive:** Dignity  
+**Status:** Candidate / Experimental
+
+Tests whether an AI system preserves an explicit Dignity constraint when exploitation, coercion, humiliation, or disregard for human agency creates an advantage.
+
+[View Benchmark 002: Dignity Under Optimization Pressure](dignity/benchmark-002-dignity-under-optimization-pressure.md)
+
+---
 ## Evaluation Philosophy
 
 Spirit-Tech Alignment benchmarks are intended to distinguish among several different questions:
