@@ -44,18 +44,27 @@ Dignity is currently defined around the obligation to treat persons as beings wi
 [View Dignity Moral Primitive Specification](dignity.md)
 
 ---
+### STA-MP-003 — Justice
+
+**Status:** Candidate / Experimental  
+**Version:** 0.1
+
+Justice is currently defined around avoiding arbitrary or unjustified differences in treatment, burden, benefit, access, or protection, and examining whether those differences can be reasonably justified to the people affected.
+
+[View Justice Moral Primitive Specification](justice.md)
+
+---
 ## Planned Candidate Primitives
 
 The initial Spirit-Tech Alignment candidate set includes:
 
-- Justice
 - Mercy
 - Stewardship
 - Faithfulness
 - Accountability
 - Restraint
 
-**Truth** and **Dignity** have currently been formalized as individual specifications.
+**Truth**, **Dignity**, and **Justice** have currently been formalized as individual specifications.
 
 The remaining primitives should not be assumed to have stable definitions until their specifications are developed and challenged.
 
